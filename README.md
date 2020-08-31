@@ -25,5 +25,4 @@ Raymund Theodore Ramos
 
 ## Live Demo
 
-Try it out for yourself in the website below:
-https://rtsnake.herokuapp.com/
+Try it out for yourself in the following website: https://rtsnake.herokuapp.com/
