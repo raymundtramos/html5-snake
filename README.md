@@ -15,9 +15,9 @@ Raymund Theodore Ramos
 
 ### How to Run
 
-1. On the display PC, install the dependencies run ```npm install```
-2. On the display PC, run the program with ```node index.js```
-3. On the display PC, open web browser and go to ```<website url>``` Example: ```http://localhost:xxxx```
+1. Install the dependencies run ```npm install```
+2. Run the program with ```node index.js```
+3. Open web browser and go to ```<website url>``` Example: ```http://localhost:xxxx```
 4. Enjoy!!!
 
 ### Example
