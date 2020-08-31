@@ -1,0 +1,24 @@
+{
+  "name": "html5-snake",
+  "version": "1.0.0",
+  "description": "This is a backup of the snake program I made in 2012 during my 3rd year of university. This was during the advent of the HTML5 adoption.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raymundtramos/html5-snake.git"
+  },
+  "author": "Raymund Theodore Ramos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raymundtramos/html5-snake/issues"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  
+  "homepage": "https://github.com/raymundtramos/html5-snake#readme"
+}

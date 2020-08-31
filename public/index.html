@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Testing Project</title>
+		<script type="text/javascript" src="js/test.js"></script>
+		<link href="css/project.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id = "main" >
+			<div id = "title_holder">
+				<img src = "images/title_logo.png" alt = "Snake is really Fun!"/>
+			</div>
+			<div id = "score_title">
+				<p>SCORE:</p>
+			</div>
+			<div id = "score_holder">
+				<p id = "score">0</p>
+			</div>
+			<div id = "easy_button">
+				<img class="diff_button" src = "images/easy_button.png" onclick="set_easy()"/>
+			</div>
+			<div id = "normal_button">
+				<img class="diff_button" src = "images/normal_button.png" onclick="set_normal()"/>
+			</div>
+			<div id = "hard_button">
+				<img class="diff_button" src = "images/hard_button.png" onclick="set_hard()"/>
+			</div>
+			<div id = "reset_button">
+				<img class="diff_button" src = "images/reset_button.png" onclick="reset_game()"/>
+			</div>
+			<div id = "canvas_bg">
+				<div id = "canvas_holder">
+					<canvas id="background_grid" width="300 px" height="500 px"></canvas>
+					<canvas id="movable_area" width="300 px" height="500 px"></canvas>
+				</div>
+			</div>
+		</div>
+		<audio id="snake_eat" src="sounds/EAT.wav" preload="auto"/>
+		<audio id="game_over_clip" src="sounds/GAMEOVER.mp3" preload="auto"/>
+	</body>
+	
+	
+	
+</html>

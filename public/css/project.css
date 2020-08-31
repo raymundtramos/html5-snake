@@ -1,0 +1,100 @@
+@font-face {
+	font-family: 'snake_font';
+	src: url('../fonts/Basica.ttf');
+}
+
+img.diff_button:hover, img.diff_button:active{
+	background-image: url("../images/button_selected.png");
+}
+
+#main{
+	position: relative;
+	width:870px;
+    height:570px;
+    margin: 10px auto;
+	background-image: url("../images/back_bg.png");
+}
+
+#title_holder{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#score_title{
+	position: absolute;
+	top: 200px;
+	right: 310px;
+	font-family: snake_font;
+	font-size: 36px;
+	color:#00bff3;
+}
+
+#score_holder{
+	position: absolute;
+	top: 200px;
+	right: 15px;
+	font-family: snake_font;
+	font-size: 36px;
+	color:#00bff3;
+}
+
+#easy_button{
+	position: absolute;
+	top: 300px;
+	right: 330px;
+	font-family: snake_font;
+	font-size: 36px;
+}
+
+#normal_button{
+	position: absolute;
+	top: 300px;
+	right: 170px;
+	font-family: snake_font;
+}
+
+#hard_button{
+	position: absolute;
+	top: 300px;
+	right: 10px;
+	font-family: snake_font;
+}
+
+#reset_button{
+	position: absolute;
+	top: 360px;
+	right: 170px;
+	font-family: snake_font;
+}
+
+
+#canvas_bg{
+	position: absolute;
+	width: 350px;
+	height:550px;
+	top: 10px;
+	left: 10px;
+	background-image: url("../images/main_bg.png");
+}
+
+#canvas_holder{
+	position:relative;
+	top: 25px;
+	left: 25px;
+}
+
+#background_grid{
+	z-index: 1; 
+	position:absolute; 
+	left:0px; 
+	top:0px;
+}
+
+#movable_area{
+	z-index: 2; 
+	position:absolute; 
+	left:0px; 
+	top:0px;
+	font-family: snake_font;
+}
