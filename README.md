@@ -22,3 +22,8 @@ Raymund Theodore Ramos
 
 ### Example
 ![Example](/screenshots/SNAKE_EXAMPLE.jpg)
+
+## Live Demo
+
+Try it out for yourself in the website below:
+https://rtsnake.herokuapp.com/
